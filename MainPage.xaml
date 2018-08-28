@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SimpleWeather"
+             x:Class="SimpleWeather.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry x:Name="userCity" Placeholder="Enter a city"/>
+        <Label Text="City" />
+        <Label x:Name="City"/>
+        <Label Text="Forecast" />
+        <Label x:Name="Forecast"/>
+        <Label Text="Temperature" />
+        <Label x:Name="Temperature"/>
+        <Label Text="Wind Speed" />
+        <Label x:Name="WindSpeed"/>
+        <Label Text="Humidity" />
+        <Label x:Name="Humidity"/>
+        <Label Text="Sunrise" />
+        <Label x:Name="Sunrise"/>
+        <Label Text="Sunset" />
+        <Label x:Name="Sunset"/>
+        <Button Text="Confirm" Clicked="GetWeather_Clicked"/>
+        <Label x:Name="Test"/>
+
+    </StackLayout>
+
+</ContentPage>
